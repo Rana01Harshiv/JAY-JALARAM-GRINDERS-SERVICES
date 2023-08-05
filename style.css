@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+display: flex;
+
+}
+
+.logo{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.logo img {
+  width: 40%;
+  border: 3px solid white;
+  border-radius: 50px;
+}
+.nav-list{
+
+width: 50%;
+
+display: flex;
+/* justify-content: center; */
+align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    display: flex;
+    padding: 25px 20px;
+  }
+
+.nav-list li a{
+    text-decoration: none;
+    color: tomato;
+}
+
+.nav-list li a:hover{
+  color:white;
+}
+.rightNav{
+  
+  width: 50%;
+  text-align: right;
+
+}
+#search{
+  padding: 4px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 8px;
+
+}
+.background{
+  background: rgba(0, 0,0,0) url('../New folder/wlp3.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+
+}
+
+.firstsection{
+  height: 100vh;
+}
+
+.box-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+}
+}
+
+.firsthalf{
+width: 80%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.secoundhalf{
+  width: 30%;
+}
+
+.secoundhalf img {
+  width: 70%;
+  padding: 4px 0px;
+  border: 4px solid white;
+  border-radius: 150px;
+}
