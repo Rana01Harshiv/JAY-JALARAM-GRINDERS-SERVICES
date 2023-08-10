@@ -16,9 +16,9 @@ display: flex;
 
 }
 .logo img {
-  width: 40%;
-  border: 3px solid white;
-  border-radius: 50px;
+  width: 90%;
+  border: 4px solid rgb(252, 255, 95);
+  border-radius: 80px;
 }
 .nav-list{
 
@@ -37,11 +37,11 @@ align-items: center;
 
 .nav-list li a{
     text-decoration: none;
-    color: tomato;
+    color:  rgb(252, 255, 95);;
 }
 
 .nav-list li a:hover{
-  color:white;
+  color:rgb(28, 225, 231);
 }
 .rightNav{
   
@@ -89,7 +89,7 @@ flex-direction: column;
   width: 30%;
 }
 
-.secoundhalf img {
+.secoundhalf img{
   width: 70%;
   padding: 4px 0px;
   border: 4px solid white;
