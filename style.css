@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,800&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -106,10 +108,13 @@ flex-direction: column;
 .text-big{
   font-size: 40px;
   text-align: center;
+  padding: 41px 0px;
+  font-family: 'Playfair Display', serif;
 }
 
 .text-small{
   font-size: 18px;
+  
 }
 .btn{
   padding: 5px 20px;
@@ -125,4 +130,39 @@ flex-direction: column;
   padding: 3px 10px;
   vertical-align: middle;
   
+}
+
+.section{
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  max-width: 80%;
+ 
+}
+
+.secLeft{
+  flex-direction: row-reverse;
+
+}
+.paras{
+  padding: 0px 1px;
+}
+.imgFluid{
+  height: 257px;
+    width: 235px;
+    padding: 0px 0px;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+}
+.sectionSubTag{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img{
+  border: 2px solid black;
+  border-radius: 26px;
+  margin-right: 25px;
+  margin-left: 25px;
 }
