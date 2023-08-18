@@ -44,6 +44,8 @@ align-items: center;
 .nav-list li a{
     text-decoration: none;
     color:  rgb(252, 255, 95);;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-list li a:hover{
@@ -121,7 +123,7 @@ flex-direction: column;
   margin: 7px 0px;
   border: 2px solid #12ed8d;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 20px;
   background: none;
   color:rgb(255, 251, 0);
   cursor: pointer;
@@ -129,7 +131,7 @@ flex-direction: column;
 .btn-sm{
   padding: 3px 10px;
   vertical-align: middle;
-  
+  font-size: 16px;
 }
 
 .section{
@@ -146,9 +148,11 @@ flex-direction: column;
   flex-direction: row-reverse;
 
 }
+
 .paras{
   padding: 0px 1px;
 }
+
 .imgFluid{
   height: 257px;
     width: 235px;
@@ -156,13 +160,53 @@ flex-direction: column;
     margin-top: 10%;
     margin-right: 15%;
 }
+
+.section{
+  padding: 16px 0px;
+
 }
+
 .sectionSubTag{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .thumbnail img{
   border: 2px solid black;
   border-radius: 26px;
   margin-right: 25px;
   margin-left: 25px;
+}
+.contact{
+  background-color: #f6f5f4;
+  height: 700px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.form{
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.form-input{
+    margin: 15px 0px;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+}
+.btn-dark{
+  color: black;
+  border: 2px solid grey;
+
+}
+.footer{
+  height: 20px;
+}
+
+.footer-end{
+  align-items: center;
 }
