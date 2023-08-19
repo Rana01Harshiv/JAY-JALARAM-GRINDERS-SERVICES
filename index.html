@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+ 
   <title>Jay Jalaram Diamond Grinding Product and Engineering </title>
 </head>
 
 <body>
-  <nav class="navbar background">
-    <ul class="nav-list">
+  <nav class="navbar background h-nav-resp">
+    <ul class="nav-list v-class-resp">
       <a href="index.html">
         <div class="logo"><img src="image\logo of jjg.png" alt="logo">
       </a>
@@ -22,9 +23,15 @@
       <li> <a href="contact.html">Contact Us</a></li>
 
     </ul>
-    <div class="rightNav">
+    <div class="rightNav v-class-resp">
       <input type="text" name="search" id="search">
       <button class="btn btn-sm">Search</button>
+    </div>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+
     </div>
   </nav>
 
@@ -43,7 +50,7 @@
           components made of steel, iron and other materials. </p>
         <div class="button">
           <button class="btn">
-            Explore to More Products
+            <a href="products.html"> Explore to More Products</a>
           </button>
         </div>
       </div>
@@ -123,15 +130,19 @@
       <input class="form-input"  type="phone" name="phone" id="phone" placeholder=" Enter Your Phone: ">
       <input class="form-input"  type="email" name="email" id="email" placeholder=" Enter Your Email: ">
       <textarea class="form-input"  name="text" name="text" id="text" cols="30" rows="10" placeholder="Write a Deatiled note on What you Want"></textarea>
-      <button class="btn btn-dark">Submit</button>
+      <button class="btn btn-sm btn-dark">Submit</button>
     </div>
 
   </section>
 
-  <footer class="footer">
-   <h5 class="footer-end"> Copyright &copy; 2023 - All rights reserved to Jay Jalaram Grinders </h5>
+  <footer class="background">
+    <p class="text-footer">
+        Copyright &copy; 2023 - www.jayjalaramgrinders.com All rights reserved 
+        <br>
+        Developed & Managed By: @harshivrana 
+    </p>
   </footer>
-
+  <script src="js/resp.js"></script>
 </body>
 
 </html>
